@@ -510,86 +510,93 @@
     </footer>
 
     <div class="modal">
-      <div class="modal-window">
-        <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form class="modal-formula">
-          <div class="modal-formula-div">
-            <label class="label-name" for="user-name">Name</label>
-            <div class="name-icon-div">
+      <div class="is-modal">
+        <button class="btn-modal" type="button">
+          <svg class="svg-modal" width="8" height="8">
+            <use href="./images/icons.svg#Vector"></use>
+          </svg>
+        </button>
+        <p class="p-modal">Leave your contacts and we will call you back</p>
+        <form>
+          <div class="form-modal">
+            <label class="in-label-modal" for="user-name">Name</label>
+            <div class="after-label-modal">
               <input
-                class="name-input"
-                id="user-name"
-                name="user-name"
+                class="input-modal"
                 type="text"
+                name="user-name"
+                id="user-name"
               />
-              <svg class="formula-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              <svg class="svg-two-modal" width="18" height="24">
+                <use href="./images/icons.svg#person-black-18dp-1"></use>
               </svg>
             </div>
           </div>
 
-          <div class="modal-formula-div">
-            <label class="label-name" for="user-name">Phone</label>
-            <div class="name-icon-div">
+          <div class="form-modal">
+            <label class="in-label-modal" for="user-phone">Phone</label>
+            <div class="after-label-modal">
               <input
-                class="name-input"
-                id="user-name"
-                name="user-name"
+                class="input-modal"
                 type="text"
+                name="user-name"
+                id="user-phone"
               />
-              <svg class="formula-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+              <svg class="svg-two-modal" width="18" height="24">
+                <use href="./images/icons.svg#phone-black-18dp-1"></use>
               </svg>
             </div>
           </div>
 
-          <div class="modal-formula-div">
-            <label class="label-name" for="user-name">Email</label>
-            <div class="name-icon-div">
+          <div class="form-modal">
+            <label class="in-label-modal" for="user-mail">Email</label>
+            <div class="after-label-modal">
               <input
-                class="name-input"
-                id="user-name"
-                name="user-name"
+                class="input-modal"
                 type="text"
+                name="user-name"
+                id="user-mail"
               />
-              <svg class="formula-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+              <svg class="svg-two-modal" width="18" height="24">
+                <use href="./images/icons.svg#email-black-18dp-1"></use>
               </svg>
             </div>
           </div>
-
-          <div class="comment-div">
-            <label class="modal-formula-div" for="user-comment">Comment</label>
+          <div class="is-modal-two">
+            <label class="in-label-modal" for="user-comment">Comment </label>
             <textarea
-              class="textarea"
+              class="textarea-modal"
               id="user-comment"
               name="user-comment"
               placeholder="Text input"
-            >
-            </textarea>
+            ></textarea>
+            <div class="after-label-modal">
+              <input class="visually-hidden" />
+              <svg class="svg-two-modal" width="18" height="24">
+                <use href=""></use>
+              </svg>
+            </div>
           </div>
-          <div class="check-div">
+          <div class="checkbox-etiquette">
             <input
-              class="check-input"
+              class="checkbox visually-hidden"
               id="user-privacy"
               type="checkbox"
               value="true"
               name="user-privacy"
             />
-            <label class="check-label" for="user-privacy"
-              >I accept the terms and conditions of the<span class="terms">
-                <svg class="icon-btn-check" width="10" height="8">
-                  <use href="./images/icons.svg#icon-Checkbox"></use>
+            <label class="etiquette" for="user-privacy">
+              <span class="span-etiquette">
+                <svg class="svg-etiquette" width="10" height="8">
+                  <use href="./images/icons.svg#Checkbox"></use>
                 </svg>
               </span>
+              I accept the terms and conditions of the
+              <a href="" class="link-policy">Privacy Policy</a>
             </label>
           </div>
+          <button class="btn-send">Send</button>
         </form>
-        <button class="modal-btn">
-          <svg class="icon-btn-modal" width="8" height="8">
-            <use href="./images/icons.svg#icon-Vector"></use>
-          </svg>
-        </button>
       </div>
     </div>
   </body>
