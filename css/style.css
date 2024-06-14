@@ -482,10 +482,9 @@ p {
 }
 .f-form {
   display: flex;
-}
-.f-label {
   gap: 24px;
 }
+
 .f-input {
   width: 264px;
   height: 40px;
